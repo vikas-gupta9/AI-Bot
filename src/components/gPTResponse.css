@@ -1,0 +1,6 @@
+.response-data{
+    white-space: pre-wrap;
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }

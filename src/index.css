@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #343541;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 15px 20px;
+  background-color: #159977;
+  color: #ececf1;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.chatgpt-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 60%;
+  /* height: 50%; */
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.loader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.response {
+  background-color: #343541;
+  color: #ececf1;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  white-space: pre-wrap;
+}
+
+.button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 60px;
+}
+.img-container{
+  width: 250px;
+  height: 250px;
+  margin-bottom: 50px;
+}
